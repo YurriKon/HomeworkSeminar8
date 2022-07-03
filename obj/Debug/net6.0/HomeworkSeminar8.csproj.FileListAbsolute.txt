@@ -1,0 +1,15 @@
+D:\GeekBrains\С#\HomeworkSeminar8\bin\Debug\net6.0\HomeworkSeminar8.exe
+D:\GeekBrains\С#\HomeworkSeminar8\bin\Debug\net6.0\HomeworkSeminar8.deps.json
+D:\GeekBrains\С#\HomeworkSeminar8\bin\Debug\net6.0\HomeworkSeminar8.runtimeconfig.json
+D:\GeekBrains\С#\HomeworkSeminar8\bin\Debug\net6.0\HomeworkSeminar8.dll
+D:\GeekBrains\С#\HomeworkSeminar8\bin\Debug\net6.0\HomeworkSeminar8.pdb
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\HomeworkSeminar8.csproj.AssemblyReference.cache
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\HomeworkSeminar8.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\HomeworkSeminar8.AssemblyInfoInputs.cache
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\HomeworkSeminar8.AssemblyInfo.cs
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\HomeworkSeminar8.csproj.CoreCompileInputs.cache
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\HomeworkSeminar8.dll
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\refint\HomeworkSeminar8.dll
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\HomeworkSeminar8.pdb
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\HomeworkSeminar8.genruntimeconfig.cache
+D:\GeekBrains\С#\HomeworkSeminar8\obj\Debug\net6.0\ref\HomeworkSeminar8.dll
