@@ -43,24 +43,24 @@ void SortRowArray(int[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            int minPosition = j;
+            int maxPosition = j;
             for (int k = j + 1; k < array.GetLength(1); k++)
             {
-                if (array[i,k] < array[i,minPosition])
+                if (array[i,k] > array[i,maxPosition])
                 {
-                    minPosition = k;
+                    maxPosition = k;
                 }
             }
                 int temporary = array[i,j];
-                array[i,j] = array[i,minPosition];
-                array[i,minPosition] = temporary;
+                array[i,j] = array[i,maxPosition];
+                array[i,maxPosition] = temporary;
         }
     }
 }
 
 void PrintArraySorted(int[,] array)
 {
-    Console.WriteLine("Массив, отсортированный построчно:");
+    Console.WriteLine("Отсортированный массив:");
     Console.WriteLine();
     for (int i = 0; i < array.GetLength(0); i++)
     {
