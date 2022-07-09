@@ -1,6 +1,6 @@
 // Задача 56: Задайте прямоугольный двумерный массив. 
 // Напишите программу, которая будет находить строку с наименьшей суммой элементов.
-
+/*
 Console.WriteLine();
 int[,] array = new int[4,5];
 Random rand = new Random();
@@ -61,3 +61,4 @@ void FindMinRow(int[,] array)
     Console.WriteLine($"Наименьшаяя сумма = {summin}");
     Console.WriteLine($"Номер строки = {minrow+1}");
 }
+*/
