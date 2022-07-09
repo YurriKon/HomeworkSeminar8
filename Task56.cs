@@ -1,15 +1,13 @@
-// Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит 
-// по убыванию элементы каждой строки двумерного массива.
-
-/* Console.WriteLine();
+// Задача 56: Задайте прямоугольный двумерный массив. 
+// Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 
 int[,] array = new int[4,5];
 Random rand = new Random();
 
 FillArray(array);
 PrintArray(array);
-SortRowArray(array);
-PrintArraySorted(array);
+FindMinRowArray(array);
+/* PrintResult(array); */
 
 void FillArray(int[,] array)
 {
@@ -17,7 +15,7 @@ void FillArray(int[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i,j] = rand.Next(1, 100);
+            array[i,j] = rand.Next(1, 10);
         }
     }
 }
@@ -37,28 +35,31 @@ void PrintArray(int[,] array)
     }
 }
 
-void SortRowArray(int[,] array)
+void FindMinRowArray(int[,] array)
 {
+    int sumrow = 0;
+    int summin = 0;
+    int minrow = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
+        
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            int maxPosition = j;
-            for (int k = j + 1; k < array.GetLength(1); k++)
-            {
-                if (array[i,k] > array[i,maxPosition])
-                {
-                    maxPosition = k;
-                }
-            }
-                int temporary = array[i,j];
-                array[i,j] = array[i,maxPosition];
-                array[i,maxPosition] = temporary;
+            sumrow += array[i,j];
         }
+        sumrow = summin;
+        if (sumrow < summin) 
+        {
+            summin = sumrow;
+        }
+        
+        
     }
+    Console.WriteLine(summin);
+    Console.WriteLine(minrow);
 }
 
-void PrintArraySorted(int[,] array)
+/* void PrintResult(int[,] array)
 {
     Console.WriteLine("Отсортированный массив:");
     Console.WriteLine();
